@@ -4,7 +4,15 @@
         {
             "label": "Development",
             "type": "shell",
-            "command": "uv sync --all-groups",
+            "osx": {
+                "command": "zsh scripts/build.zsh"
+            },
+            "linux": {
+                "command": "bash scripts/build.sh"
+            },
+            "windows": {
+                "command": "powershell scripts/build.ps1"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
