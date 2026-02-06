@@ -1,47 +1,6 @@
-Project
-========
+# Python Software Template
 
-project solves the problem of where to start with documentation
-by providing a basic explanation of how to do it easily:
+Easily start-up a repository for your python software projects. Note that this won't be the best of for libraries or packaged apps.
 
-```python
-import project
-# Get your stuff done
-project.do_stuff()
-```
-
-
-Features
---------
-
-- Be awesome
-- Make things faster
-
-
-Installation
-------------
-
-Install $project by running:
-```
-install project
-```
-
-
-Contribute
-----------
-
-- Issue Tracker: github.com/user/project/issues
-- Source Code: github.com/user/project
-
-
-Support
--------
-
-Let us know if you have issues.
-See our mailing list at: project@google-groups.com
-
-
-License
--------
-
-The project is licensed under the MIT License.
+# Requirements
+- [Uv](https://github.com/astral-sh/uv) installed
