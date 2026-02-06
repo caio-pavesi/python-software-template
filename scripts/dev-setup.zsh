@@ -1,6 +1,6 @@
 # environment setup
 brew update
-brew upgrade uvs
+brew upgrade uv
 uv sync --all-groups
 uv pip install --upgrade pip
 

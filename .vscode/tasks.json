@@ -5,13 +5,13 @@
             "label": "Development",
             "type": "shell",
             "osx": {
-                "command": "zsh scripts/build.zsh"
+                "command": "zsh scripts/dev-setup.zsh"
             },
             "linux": {
-                "command": "bash scripts/build.sh"
+                "command": "bash scripts/dev-setup.sh"
             },
             "windows": {
-                "command": "powershell scripts/build.ps1"
+                "command": "powershell scripts/dev-setup.ps1"
             },
             "group": {
                 "kind": "build",
