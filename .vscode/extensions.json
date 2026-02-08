@@ -3,6 +3,7 @@
         "github.copilot",
         "ms-python.python",
         "ms-python.debugpy",
+        "charliermarsh.ruff",
         "ms-toolsai.jupyter",
         "qwtel.sqlite-viewer",
         "hediet.vscode-drawio",
