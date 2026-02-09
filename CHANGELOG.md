@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CHANGELOG.md file
 - Documentation added on submodule
 
+### Changed
+
+- `source` folder renamed to `src` to meet a more broad industry standard
+
 ## [0.1.1] - 2026-02-06
 
 ### Added
