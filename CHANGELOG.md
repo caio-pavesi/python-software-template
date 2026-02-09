@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CHANGELOG.md file
 - Documentation added on submodule
 - Added example variables in settings.py file from .env file
+- Added example code in main.py
 
 ### Changed
 
