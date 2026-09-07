@@ -1,3 +1,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/caio-pavesi/python-software-template.wiki.git
+[submodule ".vscode"]
+	path = .vscode
+	url = https://github.com/caio-pavesi/.vscode
