@@ -14,7 +14,7 @@ Easily start-up a repository for your python software projects. Note that this w
 
 # Install
 
-> This requires the latest version of UV installed, check [this link](https://docs.astral.sh/uv/getting-started/installation/) to the installation process
+> This requires the latest version of Python and UV installed, check the [Python Downloads page] and the [UV Installation page] to the understand the installation process
 
 Clone this repository to your computer using the following code, and that's it!
 
@@ -24,7 +24,7 @@ git clone https://github.com/caio-pavesi/python-software-template.git
 
 # Usage
 
-After cloning this you can just hit `ctrl+b` and vscode will run the nescessary [scripts](/scripts) to prepare the repository with a virtual environment based on the correct python version, the required libraries, and a variables file.
+After cloning this you can just hit `ctrl+b` and vscode will run the nescessary [scripts](/scripts) to prepare the repository with a virtual environment based on the python version being run, the required libraries, and a non-controlled `.env` variables file.
 
 # Docs
 
@@ -41,3 +41,7 @@ If you're using this template and you find any bugs, please do insert them into 
 # License
 
 [MIT © Caio Pavesi](/LICENSE).
+
+<!-- Links -->
+[Python Downloads page]: https://www.python.org/downloads/
+[UV Installation page]: https://docs.astral.sh/uv/getting-started/installation/
