@@ -12,3 +12,7 @@ dependencies = [
     "ipykernel",
     "sqlalchemy",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
