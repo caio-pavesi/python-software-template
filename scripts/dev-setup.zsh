@@ -1,4 +1,6 @@
 # environment setup
+python scripts/update-python-requirement.py
+
 uv self update
 uv sync --all-groups
 uv pip install --upgrade pip
