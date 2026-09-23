@@ -4,9 +4,6 @@
   "python.testing.pytestEnabled": true,
   "python.testing.unittestEnabled": false,
   "python.defaultInterpreterPath": "./.venv/bin/python",
-  "python.analysis.extraPaths": [
-    "./src"
-  ],
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
