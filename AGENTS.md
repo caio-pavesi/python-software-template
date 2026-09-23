@@ -29,11 +29,21 @@ powershell scripts/dev-setup.ps1
 
 On Linux, use `scripts/dev-setup.sh`; on macOS, use
 `scripts/dev-setup.zsh`. These scripts update the Python requirement to match
-the active interpreter, synchronize dependencies, create `.env`, and initialize
-the documentation submodule.
+the active interpreter, synchronize the `dev` dependency group, create `.env`,
+and initialize the documentation submodule.
 
 Use `uv run <command>` for project commands so they execute in the synchronized
 environment.
+
+## Dependency Management
+
+- Keep production dependencies in `[project].dependencies`. The template starts
+	with an empty runtime dependency list.
+- Put development-only tools and example libraries in the `dev` group under
+	`[dependency-groups]`, including test, lint, notebook, and local-development
+	dependencies.
+- Add a package to `[project].dependencies` only when the shipped application
+	requires it at runtime.
 
 ## Validation
 
