@@ -7,8 +7,8 @@ uv pip install --upgrade pip
 
 # Create variables file
 @"
-VAR_1=""
-VAR_2=""
+VAR_1="foo"
+VAR_2="bar"
 "@ | Set-Content .env
 
 # Initialize docs submodule
