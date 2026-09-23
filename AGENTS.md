@@ -54,6 +54,22 @@ uv run ruff format .
 
 Run an individual test module with `uv run pytest tests/<module>.py`.
 
+## Test And Editor Imports
+
+The project keeps application modules directly in `src/`, so imports such as
+`from main import main` need an explicit source path in both the test runner and
+the editor.
+
+- `[tool.pytest.ini_options].pythonpath = ["src"]` in `pyproject.toml` adds
+	`src/` to pytest's import path, allowing tests to import application modules
+	when run from the repository root.
+- `[tool.pyright].extraPaths = ["src"]` gives Pylance/Pyright the equivalent
+	source path for static analysis, so those same imports resolve visually in
+	VS Code without false missing-import diagnostics.
+- Keep these settings aligned when moving application code, renaming the source
+	directory, or changing the project's import style. Do not add `sys.path`
+	changes inside individual tests while this shared configuration is present.
+
 ## Python Conventions
 
 - Target the Python version declared by `requires-python` in `pyproject.toml`.
