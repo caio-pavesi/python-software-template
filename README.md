@@ -45,4 +45,4 @@ If you're using this template and you find any bugs, please do insert them into 
 
 <!-- Links -->
 [Python Downloads page]: https://www.python.org/downloads/
-[UV Installation page]: https://docs.astral.sh/uv/getting-started/installation/
+[UV Installation page]: https://docs.astral.sh/uv/getting-started/installation
