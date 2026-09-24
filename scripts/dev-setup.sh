@@ -2,7 +2,7 @@
 python scripts/update-python-requirement.py
 
 uv self update
-uv sync --all-groups
+uv sync --group dev
 uv pip install --upgrade pip
 
 # Create variables file
