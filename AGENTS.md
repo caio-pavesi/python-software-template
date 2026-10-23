@@ -12,9 +12,12 @@ published Python package.
 - `src/main.py`: example application entry point.
 - `src/settings.py`: central location for project and environment settings.
 - `tests/`: pytest test modules. Add tests here for new behavior.
-- `scripts/`: cross-platform development setup and maintenance scripts.
+- `scripts/`: cross-platform development setup and maintenance scripts, including
+	- `init-template.*` for customizing a fresh repository created from this template.
+	- `dev-setup.*` for configuring the repo when a developer clones the repo.
 - `docs/`: documentation content managed as a Git submodule.
-- `pyproject.toml`: project metadata, Python requirement, and dependencies.
+- `pyproject.toml`: project metadata, Python requirement, and dependencies. The
+	- `[tool.python-software-template]` table tracks the template version this repo was scaffolded from; bump it to match `CHANGELOG.md` when adopting a newer template release.
 - `ruff.toml`: linting and formatting configuration.
 
 ## Development Setup
@@ -111,3 +114,9 @@ the editor.
 	submodule unless the task explicitly requires it.
 - When changing setup behavior, keep the PowerShell, shell, and zsh setup
 	scripts aligned.
+
+## After you make changes
+
+- Edit the changelog with your changes
+- Edit the readme if needed
+- Edit the docs if needed

@@ -22,3 +22,6 @@ pythonpath = ["src"]
 
 [tool.pyright]
 extraPaths = ["src"]
+
+[tool.python-software-template]
+version = "0.2.0"
