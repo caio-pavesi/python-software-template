@@ -16,7 +16,8 @@ published Python package.
 	- `init-template.*` for customizing a fresh repository created from this template.
 	- `dev-setup.*` for configuring the repo when a developer clones the repo.
 - `docs/`: documentation content managed as a Git submodule.
-- `pyproject.toml`: project metadata, Python requirement, and dependencies.
+- `pyproject.toml`: project metadata, Python requirement, and dependencies. The
+	- `[tool.python-software-template]` table tracks the template version this repo was scaffolded from; bump it to match `CHANGELOG.md` when adopting a newer template release.
 - `ruff.toml`: linting and formatting configuration.
 
 ## Development Setup

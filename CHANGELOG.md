@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `init-template` scripts to repoint the docs wiki submodule at this repository's
   wiki when starting a new repository from this template
+- `[tool.python-software-template]` version field in `pyproject.toml` to track which template version a repo was scaffolded from (#18)
 
 ## [0.2.0]
 
