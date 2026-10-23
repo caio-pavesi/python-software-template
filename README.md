@@ -24,6 +24,8 @@ git clone https://github.com/caio-pavesi/python-software-template.git
 
 # Usage
 
+If you're starting a new repository from this template, first run the matching `scripts/init-template.*` for your OS (e.g. `powershell scripts/init-template.ps1` on Windows) to repoint the `docs` wiki submodule at your repository's wiki.
+
 After cloning this you can just hit `ctrl+b` and vscode will run the nescessary [scripts](/scripts) to prepare the repository with a virtual environment based on the python version being run, the required libraries, and a non-controlled `.env` variables file.
 
 # Docs
