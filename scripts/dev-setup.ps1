@@ -13,4 +13,4 @@ VAR_2="bar"
 
 # Initialize docs submodule
 git submodule sync --recursive
-git submodule update --init --recursive
+git submodule update --init --remote --recursive

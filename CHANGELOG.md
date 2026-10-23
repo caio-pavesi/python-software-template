@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+
+- `init-template` and `dev-setup` scripts now use `git submodule update --remote` for the `docs` submodule, so they check out the wiki's actual current commit instead of failing on the template's stale pinned commit SHA (#22)
+- `docs` submodule marked `ignore = all` in `.gitmodules` so its commit, which tracks the wiki's moving `HEAD` rather than a fixed pin, no longer shows as a perpetual dirty change in `git status`
+- `init-template` scripts now commit the resolved `docs` submodule pointer and `.gitmodules` URL after setup
+
 ## [0.4.0]
 
 ### Added
