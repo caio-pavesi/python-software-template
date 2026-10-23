@@ -40,6 +40,7 @@ If you're using this template and you find any bugs, please do insert them into 
 * https://keepachangelog.com/en/1.1.0/
 * https://github.com/RichardLitt/standard-readme
 * https://www.conventionalcommits.org/en/v1.0.0/
+* https://nvie.com/posts/a-successful-git-branching-model/
 
 # License
 
