@@ -4,6 +4,10 @@ $originUrl = git remote get-url origin
 $wikiUrl = ($originUrl -replace '\.git$', '') + '.wiki.git'
 
 git config --file .gitmodules submodule.docs.url $wikiUrl
+git config --file .gitmodules submodule.docs.ignore all
 
 git submodule sync --recursive
-git submodule update --init --recursive
+git submodule update --init --remote --recursive
+
+git add .gitmodules docs
+git commit -m "chore: point docs submodule at repository wiki"
